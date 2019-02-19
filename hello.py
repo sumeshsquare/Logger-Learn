@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return '<h2> Welcome to CareBook !!!</h2>  <img src="imag.png" alt="Smiley face" > '
+	return '<h2> <center> Welcome to CareBook !!! </center> </h2>'
 
 if __name__ == "__main__":
 	app.run()
